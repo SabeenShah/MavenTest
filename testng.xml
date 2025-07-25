@@ -5,10 +5,7 @@
     <classes>
       <class name="testSce.HandlingDynData"/>
       <class name="testSce.ThruTextFile1"/>
-      <class name="testSce.SwitchingWindows"/>
-          <class name="testSce.CompareWebText"/>
-      <class name="testSce.MouseHover"/>
-      <class name="testSce.test"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

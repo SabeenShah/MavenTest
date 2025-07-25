@@ -1,5 +1,6 @@
 testSce\SwitchingWindows.class
 testSce\CompareWebText.class
+testSce\test.class
 testSce\ThruTextFile1.class
 testSce\MouseHover.class
 testSce\HandlingDynData.class

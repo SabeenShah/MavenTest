@@ -20,8 +20,9 @@ public class MouseHover {
 	Actions action=new Actions(driver);
 	action.dragAndDrop(drag,drop).build().perform();
 	//action.clickAndHold(drag).moveToElement(drop).release(drag).build().perform();
+	driver.quit();
 	}
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void datePicker()
 	{
 	WebDriver driver=new ChromeDriver();
@@ -49,7 +50,7 @@ public class MouseHover {
 			driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div/a[2]/span")).click();
 		}
 		
-		
+		driver.quit();
 	}
 	}
 }

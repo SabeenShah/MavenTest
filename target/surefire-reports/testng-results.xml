@@ -1,119 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T19:16:58 EDT" name="Suite" finished-at="2025-07-24T19:21:03 EDT" duration-ms="245222">
+  <suite started-at="2025-07-25T12:22:40 EDT" name="Suite" finished-at="2025-07-25T12:22:47 EDT" duration-ms="6983">
     <groups>
     </groups>
-    <test started-at="2025-07-24T19:16:58 EDT" name="Test" finished-at="2025-07-24T19:21:03 EDT" duration-ms="245222">
-      <class name="testSce.CompareWebText">
-        <test-method signature="readFrmTextFile()[pri:1, instance:testSce.CompareWebText@56620197]" started-at="2025-07-24T19:20:07 EDT" name="readFrmTextFile" finished-at="2025-07-24T19:20:07 EDT" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readFrmTextFile -->
-        <test-method signature="readFrmWeb()[pri:2, instance:testSce.CompareWebText@56620197]" started-at="2025-07-24T19:20:07 EDT" name="readFrmWeb" finished-at="2025-07-24T19:20:52 EDT" duration-ms="44407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readFrmWeb -->
-        <test-method signature="compareBoth()[pri:3, instance:testSce.CompareWebText@56620197]" started-at="2025-07-24T19:20:52 EDT" name="compareBoth" finished-at="2025-07-24T19:20:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compareBoth -->
-      </class> <!-- testSce.CompareWebText -->
-      <class name="testSce.MouseHover">
-        <test-method signature="mouseHover()[pri:1, instance:testSce.MouseHover@6eda5c9]" started-at="2025-07-24T19:20:52 EDT" name="mouseHover" finished-at="2025-07-24T19:20:55 EDT" duration-ms="3406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mouseHover -->
-        <test-method signature="datePicker()[pri:2, instance:testSce.MouseHover@6eda5c9]" started-at="2025-07-24T19:20:55 EDT" name="datePicker" finished-at="2025-07-24T19:21:03 EDT" duration-ms="8106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- datePicker -->
-      </class> <!-- testSce.MouseHover -->
+    <test started-at="2025-07-25T12:22:40 EDT" name="Test" finished-at="2025-07-25T12:22:47 EDT" duration-ms="6983">
       <class name="testSce.HandlingDynData">
-        <test-method signature="dyndata()[pri:0, instance:testSce.HandlingDynData@188715b5]" started-at="2025-07-24T19:16:58 EDT" name="dyndata" finished-at="2025-07-24T19:17:03 EDT" duration-ms="4916" status="PASS">
+        <test-method signature="dyndata()[pri:0, instance:testSce.HandlingDynData@619713e5]" started-at="2025-07-25T12:22:40 EDT" name="dyndata" finished-at="2025-07-25T12:22:47 EDT" duration-ms="6852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dyndata -->
       </class> <!-- testSce.HandlingDynData -->
-      <class name="testSce.SwitchingWindows">
-        <test-method signature="switchWin()[pri:0, instance:testSce.SwitchingWindows@393671df]" started-at="2025-07-24T19:17:03 EDT" name="switchWin" finished-at="2025-07-24T19:20:07 EDT" duration-ms="184237" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [79b00ddde2d3934e40267eebf8cbd630, findElements {using=css selector, value=frame[name='iframeResult'],iframe[name='iframeResult']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\user1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 79b00ddde2d3934e40267eebf8cbd630]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [79b00ddde2d3934e40267eebf8cbd630, findElements {using=css selector, value=frame[name='iframeResult'],iframe[name='iframeResult']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\user1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 79b00ddde2d3934e40267eebf8cbd630
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1103)
-at testSce.SwitchingWindows.switchWin(SwitchingWindows.java:18)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchWin -->
-      </class> <!-- testSce.SwitchingWindows -->
       <class name="testSce.ThruTextFile1">
-        <test-method signature="readFromTextFile()[pri:0, instance:testSce.ThruTextFile1@20ce78ec]" started-at="2025-07-24T19:17:03 EDT" name="readFromTextFile" finished-at="2025-07-24T19:17:03 EDT" duration-ms="5" status="PASS">
+        <test-method signature="readFromTextFile()[pri:0, instance:testSce.ThruTextFile1@16ec5519]" started-at="2025-07-25T12:22:47 EDT" name="readFromTextFile" finished-at="2025-07-25T12:22:47 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFromTextFile -->
